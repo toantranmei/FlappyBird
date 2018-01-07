@@ -5,9 +5,27 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Flappy Bird | Sky Albert</title>
+  <style media="screen">
+    * {
+      margin: 0;
+      padding: 0;
+    }
+
+    img {
+      display: none;
+    }
+    
+  </style>
 </head>
 <body>
-  
+  <canvas id="canvas"></canvas>
+  <img src="images/bg.png" id="bg">
+  <img src="images/bird1.png" id="bird1">
+  <img src="images/bird2.png" id="bird2">
+  <img src="images/bird3.png" id="bird3">
+
+  <script type="text/javascript" src="js/Bird.js"></script>
+  <script type="text/javascript" src="js/Enviroment.js"></script>
   <script src="js/main.js"></script>
 </body>
 </html>

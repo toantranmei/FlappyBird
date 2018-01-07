@@ -1,0 +1,24 @@
+{
+  "name": "FlappyBird",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "reload -b"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/trantoan960/FlappyBird.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/trantoan960/FlappyBird/issues"
+  },
+  "homepage": "https://github.com/trantoan960/FlappyBird#readme",
+  "devDependencies": {
+    "reload": "^2.2.2"
+  }
+}
